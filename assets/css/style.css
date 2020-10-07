@@ -12,9 +12,9 @@ body{
 }
 
 div.container {
-    width: 80%;    
+    width: 80%;
     margin: 20px auto;
-    
+    padding-right: 5%;    
 }
 
 header.heading{
@@ -64,23 +64,35 @@ main.email_container{
 }
 
 div.row{
+    width: 100%;
+    line-height: 20px;
     padding: 4px;
-    border-top: 2px solid black;
-    overflow: hidden;
-
+    padding-bottom: 0;
+    border-top: 2px solid black;    
 }
+
 div.row.read{
-    
     background-color: #d3d3d3;
 }
 
 div.row.unread{
-    background-color: #ffffff;
-    
+    background-color: #ffffff;    
+}
+
+div>.object_mail,
+.body_mail{
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+div > .object_mail{
+    width: calc(100% - 81%);  
 }
 
 
 .body_mail{
+    width: 80%;    
     color: #868686;
 }
 

@@ -62,16 +62,19 @@ main.email_container{
     padding: 10px 0px 10px 0px;
 }
 
-div.row_read{
-    padding: 5px;
+div.row{
+    padding: 4px;
+    border-top: 2px solid black;
+
+}
+div.row.read{
+    
     background-color: #d3d3d3;
-    border-top: 2px solid black;;
 }
 
-div.row_unread{
-    padding: 5px;
+div.row.unread{
     background-color: #ffffff;
-    border-top: 1px solid black;;
+    
 }
 
 

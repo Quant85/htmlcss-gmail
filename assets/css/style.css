@@ -12,9 +12,9 @@ body{
 }
 
 div.container {
-    width: 80%;    
+    width: 80%;
     margin: 20px auto;
-    
+    padding-right: 5%;    
 }
 
 header.heading{
@@ -61,26 +61,46 @@ p.unread_mail{
 
 main.email_container{
     padding: 10px 0px 10px 0px;
+    font-size: 1.2em;
 }
 
 div.row{
+    width: 100%;
+    line-height: 22px;
     padding: 4px;
+    padding-bottom: 0px;
     border-top: 2px solid black;
-    overflow: hidden;
-
+    border-radius: 4px;
+    cursor: pointer;
 }
+
 div.row.read{
-    
     background-color: #d3d3d3;
 }
 
 div.row.unread{
-    background-color: #ffffff;
-    
+    background-color: #ffffff;    
 }
 
+div>.object_mail,
+.body_mail{
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+div > .object_mail{
+    width: calc(100% - 81%);  
+}
+
+div.row .star_icon:hover{
+    color: rgb(255, 217, 0);
+    text-shadow: 2px 2px 4px black;
+    cursor: pointer;
+}
 
 .body_mail{
+    width: 80%;    
     color: #868686;
 }
 

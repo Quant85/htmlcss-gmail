@@ -1,0 +1,93 @@
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+body{
+    background-image: url(../img/bg2_1920x1200.jpg);
+/*     background-position: center; */
+
+}
+
+div.container {
+    width: 80%;    
+    margin: 20px auto;
+    
+}
+
+header.heading{
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+span.name_brand{    
+    border: 1px solid red;
+    font-size: 20px;
+    color: #ffffff; 
+}
+
+nav{
+    padding: 10px 0px 24px;
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+}
+
+nav input.search_bar{
+    height: 24px;
+}
+
+nav input.submit_button{
+    height: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+p.unread_mail{
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.number_box {
+    background-color: orange;
+    padding: 12px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+main.email_container{
+    padding: 10px 0px 10px 0px;
+}
+
+div.row_read{
+    padding: 5px;
+    background-color: #d3d3d3;
+    border-top: 2px solid black;;
+}
+
+div.row_unread{
+    padding: 5px;
+    background-color: #ffffff;
+    border-top: 1px solid black;;
+}
+
+
+.body_mail{
+    color: #868686;
+}
+
+footer{
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+}
+
+span.firma{
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

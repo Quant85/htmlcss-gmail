@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Replica Gmail</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Intestazione logo -->
+        <header class="heading">
+            <!-- Immagine del logo -->
+            <img src="assets/img/gmail_logo.png" alt="logo gmail di una busta da lettera con bordi rossi" class="logo">        
+    
+            <!-- Name brand testo-->
+            <span class="name_brand">
+                Gmail
+            </span>
+        </header>
+
+        <!-- Sezione di navigazione con search bar e contatore unread email -->
+        <nav>
+            <!-- Search bar -->
+            <form action="" method="get">
+                <input class="search_bar" type="search" name="email_search" placeholder="Search">
+                <input class="submit_button" type="submit" value="VAI">
+            </form>
+
+            <!-- Contatore email da leggere -->
+            <p class="unread_mail">
+                You have 
+                <span class="number_box">30</span>
+                unread
+            </p>
+        </nav>
+
+        <!-- email ricevute -->
+        <main class="email_container">
+            <div class="row_read">
+                <input type="checkbox" name="select" >
+                <span class="star_icon">&#9733;</span>
+                <span class="object_mail"> <strong>Oggetto della email</strong></span>
+                <span class="body_mail">-testo della email</span>
+            </div>
+            <div class="row_unread">
+                <input type="checkbox" name="select" checked>
+                <span class="star_icon">&#9733;</span>
+                <span class="object_mail"> <strong>Oggetto della email</strong></span>
+                <span class="body_mail">-testo della email</span>
+            </div>
+            <div class="row_read">
+                <input type="checkbox" name="select" >
+                <span class="star_icon">&#9733;</span>
+                <span class="object_mail"> <strong>Oggetto della email</strong></span>
+                <span class="body_mail">-testo della email</span>
+            </div>
+            <div class="row_read">
+                <input type="checkbox" name="select" >
+                <span class="star_icon">&#9733;</span>
+                <span class="object_mail"> <strong>Oggetto della email</strong></span>
+                <span class="body_mail">-testo della email</span>
+            </div>
+            
+        </main>
+
+        <!-- footer creatore -->
+        <footer>
+            <span class="firma"> GMail </span>
+            <em> powered by Antonio</em>
+        </footer>
+    </div>    
+
+
+</body>
+</html>

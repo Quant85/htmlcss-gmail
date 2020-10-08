@@ -14,7 +14,7 @@ body{
 div.container {
     width: 80%;
     margin: 20px auto;
-    padding-right: 5%;    
+    padding-right: 5%;
 }
 
 header.heading{
@@ -22,11 +22,11 @@ header.heading{
 }
 
 
-span.name_brand{ 
+span.name_brand{
     font-size: 30px;
     color: #ffffff;
     margin-left: 5px;;
-    position: relative;
+    position: relative; /* potevo usare un vertical-align: middle; */
     bottom:30px;
 }
 
@@ -38,6 +38,7 @@ nav{
 
 nav input.search_bar{
     height: 24px;
+    border-radius: 10px;
 }
 
 nav input.submit_button{
@@ -79,7 +80,7 @@ div.row.read{
 }
 
 div.row.unread{
-    background-color: #ffffff;    
+    background-color: #ffffff;
 }
 
 div>.object_mail,
@@ -90,7 +91,7 @@ div>.object_mail,
     text-overflow: ellipsis;
 }
 div > .object_mail{
-    width: calc(100% - 81%);  
+    width: calc(100% - 81%);
 }
 
 div.row .star_icon:hover{
@@ -100,8 +101,12 @@ div.row .star_icon:hover{
 }
 
 .body_mail{
-    width: 80%;    
+    width: 80%;
     color: #868686;
+}
+
+.body_mail::before{
+  content: "-";
 }
 
 footer{
